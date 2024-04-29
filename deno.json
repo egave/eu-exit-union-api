@@ -1,0 +1,57 @@
+{
+  "tasks": {
+    "run": "deno run --allow-read --allow-net --allow-env --unstable --watch server.ts",
+    "deploy": "deployctl deploy --project=eu-exit-union-api --save-config --entrypoint=./server.ts",
+    "deployPROD": "deployctl deploy --project=eu-exit-union-api --prod --save-config --entrypoint=./server.ts"
+  },
+  "imports": {
+    "express": "https://esm.sh/express@4.18.2"
+  },
+  "deploy": {
+    "project": "6f4709e5-42d1-4f54-8b29-ee4f52cc96eb",
+    "exclude": [
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules",
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "server.ts"
+  }
+}
